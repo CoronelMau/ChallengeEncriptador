@@ -1,0 +1,86 @@
+body {
+  background-color: #eeeeee;
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+img {
+  width: 80px;
+}
+
+.text-area {
+  width: 55%;
+  height: 500px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  resize: none;
+  background-color: #eeeeee;
+  padding: 30px;
+  outline: none;
+}
+
+.mensaje {
+  position: absolute;
+  width: 30%;
+  height: 600px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  resize: none;
+  border-radius: 30px;
+  padding: 30px;
+  outline: none;
+}
+
+.botonEncriptar {
+  height: 50px;
+  background-color: #0682d4ce;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  padding: 0 110px 0 110px;
+  font-size: 16px;
+}
+
+.botonEncriptar:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.botonLimpiar {
+  height: 50px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 0 110px 0 110px;
+  font-size: 16px;
+
+}
+
+.botonLimpiar:hover {
+  background-color: #0682d4ce;
+  color: white;
+  border: none;
+}
+
+.botonDes {
+  position: absolute;
+  left: 65%;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 0 90px 0 90px;
+  font-size: 16px;
+}
+
+.botonDes:hover {
+  background-color: #0682d4ce;
+  color: white;
+  border: none;
+}
